@@ -52,3 +52,16 @@ a, a:hover {
   margin-left: -15px;
   margin-top: 10px;
 }
+
+nav.shrink .navbar-brand {
+  font-size: 1.5em;
+  transition: .5s;
+}
+
+nav.shrink {
+  padding: 15px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  min-height: 30px;
+  transition: .5s;
+}
