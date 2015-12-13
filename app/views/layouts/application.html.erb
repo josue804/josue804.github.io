@@ -2,36 +2,48 @@
 <html>
 <head>
   <title>Josue Valverde</title>
-  <%= stylesheet_link_tag "application", params[:controller], :media => "all" %>
-  <%= javascript_include_tag "application", params[:controller] %>
+  <%= stylesheet_link_tag "application", :media => "all" %>
+  <%= stylesheet_link_tag "custom", :media => "all" %>
+  <%= stylesheet_link_tag "demo", :media => "all" %>
+  <%= stylesheet_link_tag "home", :media => "all" %>
+  <%= stylesheet_link_tag "responsive", :media => "all" %>
+  <%= stylesheet_link_tag "rs-plugin-styles", :media => "all" %>
+  <%= stylesheet_link_tag "theme-base", :media => "all" %>
+  <%= stylesheet_link_tag "theme-elements", :media => "all" %>
+  <%= javascript_include_tag "application"%>
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <header id="header" class="header-dark">
+        <div id="header-wrap">
+            <div class="container">
 
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container container-fluid">
 
-      <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
-        &#9776;
-      </button>
-      <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
-        <a class="navbar-brand" href="#">Josue Valverde</a>
-        <ul class="nav navbar-nav pull-right">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</nav>
+                <!--LOGO-->
+                <div id="logo">
+                    <a href="/" class="logo" data-dark-logo="images/logo-dark.png">
+                        <%= image_tag('logo.png') %>
+                    </a>
+                </div>
+                <!--END: LOGO-->
 
+                <h1>Here</h1>
+
+            </div>
+        </div>
+    </header>
+
+
+    <br><br><br><br>
+    <br><br><br><br>
+    <br><br><br><br>
+    <br><br><br><br>
+    <br><br><br><br>
+    <br><br><br><br>
+    <br><br><br><br>
+    <br><br><br><br>
+    <br><br><br><br>
+    <br><br><br><br>
 
   <%= yield %>
 
