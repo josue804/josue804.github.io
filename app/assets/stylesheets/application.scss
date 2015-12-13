@@ -12,7 +12,6 @@
  *
 
  */
-//require_tree .
 //=require_self
 @import "bootstrap";
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
@@ -20,14 +19,23 @@
 html, body {
   font-family: 'Montserrat', sans-serif;
   overflow-x: hidden;
+  color: white;
+}
+
+body {
+  padding-top: 150px;
 }
 
 a, a:hover {
   color: white;
 }
 
+.nav-link {
+  font-weight: 700;
+  margin-top: 10px;
+}
+
 .navbar {
-  position: relative;
   background-color: #5b0202;
   border-color: transparent;
   padding: 30px;

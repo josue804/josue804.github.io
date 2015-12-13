@@ -2,16 +2,36 @@
 <html>
 <head>
   <title>Josue Valverde</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag "application", params[:controller], :media => "all" %>
+  <%= javascript_include_tag "application", params[:controller] %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+
   <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">Josue Valverde</a>
+    <div class="container container-fluid">
+
+      <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+        &#9776;
+      </button>
+      <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+        <a class="navbar-brand" href="#">Josue Valverde</a>
+        <ul class="nav navbar-nav pull-right">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </nav>
+  </div>
+</nav>
+
 
   <%= yield %>
 
