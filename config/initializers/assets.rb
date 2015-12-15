@@ -25,6 +25,15 @@ end
 Dir.glob("#{Rails.root}/app/assets/homepages/**/**/**").each do |path|
   Rails.application.config.assets.paths << path
 end
+Dir.glob("#{Rails.root}/app/assets/vendor/").each do |path|
+  Rails.application.config.assets.paths << path
+end
+Dir.glob("#{Rails.root}/app/assets/vendor/**/").each do |path|
+  Rails.application.config.assets.paths << path
+end
+Dir.glob("#{Rails.root}/app/assets/vendor/**/**/").each do |path|
+  Rails.application.config.assets.paths << path
+end
 
 Rails.application.config.assets.precompile += %w(*.css, *.scss)
 Rails.application.config.assets.precompile += %w(*.js)

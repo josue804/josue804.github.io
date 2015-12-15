@@ -16,3 +16,6 @@
 //= require tether
 //= require bootstrap-sprockets
 //= require_tree .
+//= require contact-form
+//= require custom
+//= require theme-functions

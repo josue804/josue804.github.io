@@ -993,7 +993,6 @@ var INSPIRO = {};
 				itemElement = $elem.attr('data-isotope-item') || ".isotope-item",
 				itemElementSpace = $elem.attr('data-isotope-item-space') || 0;
 
-
 			$elem.isotope({
 					filter: defaultFilter,
 					itemSelector: itemElement,
@@ -1329,7 +1328,7 @@ var INSPIRO = {};
 	INSPIRO.mouseScroll = function () {
 
 		if ($mouseScroll.exists() && $body.hasClass('device-lg') || $body.hasClass('device-md')) {
-						
+
 			$.scrollify({
 				section: "section",
 				sectionName: "section-name",
