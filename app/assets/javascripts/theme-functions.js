@@ -88,6 +88,7 @@ var INSPIRO = {};
 		return this.length > 0;
 	};
 
+
 	//----------------------------------------------------/
 	// MOBILE CHECK
 	//----------------------------------------------------/
@@ -1328,7 +1329,7 @@ var INSPIRO = {};
 	INSPIRO.mouseScroll = function () {
 
 		if ($mouseScroll.exists() && $body.hasClass('device-lg') || $body.hasClass('device-md')) {
-
+						
 			$.scrollify({
 				section: "section",
 				sectionName: "section-name",

@@ -12,20 +12,12 @@ Rails.application.config.assets.version = '1.0'
 Dir.glob("#{Rails.root}/app/assets/images/**/").each do |path|
   Rails.application.config.assets.paths << path
 end
-Dir.glob("#{Rails.root}/app/assets/stylesheets/**/").each do |path|
-  Rails.application.config.assets.paths << path
-end
-Dir.glob("#{Rails.root}/app/assets/vendor/**/**").each do |path|
+
+Dir.glob("#{Rails.root}/app/assets/fonts/**/").each do |path|
   Rails.application.config.assets.paths << path
 end
 
-Rails.application.config.assets.precompile += %w( custom.css )
-Rails.application.config.assets.precompile += %w( demo.css )
-Rails.application.config.assets.precompile += %w( home.css )
-Rails.application.config.assets.precompile += %w( responsive.css )
-Rails.application.config.assets.precompile += %w( rs-plugin-styles.css )
-Rails.application.config.assets.precompile += %w( theme-base.css )
-Rails.application.config.assets.precompile += %w( theme-elements.css )
 Rails.application.config.assets.precompile += %w(*.css, *.scss)
 Rails.application.config.assets.precompile += %w(*.js)
-Rails.application.config.assets.precompile += %w(*.jpg, *.png, *svg)
+Rails.application.config.assets.precompile += %w(*.jpg, *.png, .*svg)
+Rails.application.config.assets.precompile += %w(*.eot, *.ttf, *.woff, *.woff2)
