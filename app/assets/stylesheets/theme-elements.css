@@ -2047,7 +2047,7 @@ Image Boxes
     overflow: hidden;
     width: 100%;
     /*margin-bottom: 30px;*/
-    
+
     float: left;
 }
 .image-box {
@@ -2949,7 +2949,7 @@ Image Boxes
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     /* just because it's stronger than nth-child */
-    
+
     opacity: 1;
 }
 /*-----------------*/
@@ -3028,7 +3028,7 @@ Image Boxes
     left: auto;
     margin-top: -20px;
     /* margin-left: -28px;*/
-    
+
     position: absolute;
     text-align: center;
     top: 50%;
@@ -4092,7 +4092,7 @@ body.device-xs hr.space-xxlg {
     border-bottom: 1px solid #111;
 }
 .triangle-divider-bottom {
-    background-image: url("../images/triangle-divider-down.png");
+    background-image: url("triangle-divider-down.png ");
     background-position: left center;
     background-repeat: repeat-x;
     bottom: 0;
@@ -6176,7 +6176,7 @@ Portfolio Carousel
     background: -o-linear-gradient(top, rgba(0, 0, 0, 0.59) 0%, rgba(255, 255, 255, 0) 99%);
     background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.59) 0%, rgba(255, 255, 255, 0) 99%);
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.59) 0%, rgba(255, 255, 255, 0) 99%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#96000000', endColorstr='#00ffffff', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#96000000', endColorstr='#00ffffff', GradientType=0);
     position: absolute;
     top: 0;
     right: 0;

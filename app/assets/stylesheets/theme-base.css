@@ -131,7 +131,7 @@ p.lead {
     margin-top: 0;
     color: #222222;
     font-family: "Open Sans", sans-serif;
- 
+
 }
 p,
 p.lead {
@@ -419,7 +419,7 @@ nav .main-menu .dropdown-menu i {
 
 nav .main-menu .dropdown-submenu {
     position: relative;
-    background-image: url("../images/arrow-light-right.png");
+    background-image: url("arrow-light-right.png");
     background-repeat: no-repeat;
     background-position: right top;
 }
@@ -447,7 +447,7 @@ nav .main-menu li.mega-menu-item .dropdown-menu {
 }
 nav.mega-menu li.mega-menu-item .mega-menu-title {
     /*	border-bottom: 1px solid #ededed;*/
-    
+
     display: block;
     font-weight: 700;
     margin-bottom: 10px;
@@ -549,7 +549,7 @@ body.side-push-panel {
     height: 100%;
     background-color: #F5F5F5;
     /*overflow: hidden;*/
-    
+
     -webkit-backface-visibility: hidden;
 }
 body.side-panel-left #side-panel {
@@ -3568,7 +3568,7 @@ body:not(.device-sm):not(.device-xs):not(.device-xxs) .post-4-columns.post-moder
     color: #fff !important;
 }
 /* ----------------------------------------------------------------------
-    POST NEWS THUMBNAIL BOXES 
+    POST NEWS THUMBNAIL BOXES
 -------------------------------------------------------------------------*/
 
 .post-thumbnail .post-thumbnail-entry > img {
@@ -3762,15 +3762,15 @@ body.device-xxs .page-error-404 {
     clear: left
 }
 @media(min-width:768px) {
-    .row .col-xs-6: nth-child(2n+3), .row .col-xs-4: nth-child(3n+4), .row .col-xs-3: nth-child(4n+5), .row .col-xs-2: nth-child(6n+7), .row .col-xs-1: nth-child(12n+13) {
+    .row .col-xs-6:nth-child(2n+3), .row .col-xs-4:nth-child(3n+4), .row .col-xs-3:nth-child(4n+5), .row .col-xs-2:nth-child(6n+7), .row .col-xs-1:nth-child(12n+13) {
         clear: none
     }
 }
 @media(min-width:992px) {
-    .row .col-sm-6: nth-child(2n+3),
+    .row .col-sm-6:nth-child(2n+3),
     /*	.row .col-sm-4:nth-child(3n+4), */
-    
-    .row .col-sm-3: nth-child(4n+5), .row .col-sm-2: nth-child(6n+7), .row .col-sm-1: nth-child(12n+13) {
+
+    .row .col-sm-3:nth-child(4n+5), .row .col-sm-2:nth-child(6n+7), .row .col-sm-1:nth-child(12n+13) {
         clear: left;
     }
     .row .col-md-4:nth-child(3n+4) {
@@ -3778,11 +3778,11 @@ body.device-xxs .page-error-404 {
     }
 }
 @media(min-width:1200px) {
-    .row .col-md-2: nth-child(6n+7), .row .col-md-1: nth-child(12n+13) {
+    .row .col-md-2:nth-child(6n+7), .row .col-md-1:nth-child(12n+13) {
         clear: right;
     }
     /*	.row .col-md-4:nth-child(3n+4),*/
-    
+
     .row .col-lg-6:nth-child(2n+3),
     .row .col-lg-4:nth-child(3n+4),
     .row .col-lg-3:nth-child(4n+5),

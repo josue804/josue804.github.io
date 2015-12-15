@@ -15,5 +15,4 @@
 //= require turbolinks
 //= require tether
 //= require bootstrap-sprockets
-
-import "*";
+//= require_tree .
