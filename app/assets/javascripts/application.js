@@ -16,6 +16,7 @@
 //= require tether
 //= require bootstrap-sprockets
 //= require_tree .
-//= require contact-form
-//= require custom
 //= require theme-functions
+//= require jRespond.min.js
+//= require jquery.mousewheel.min.js
+//= require jquery.simplr.smoothscroll.js

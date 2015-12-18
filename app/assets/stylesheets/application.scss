@@ -16,3 +16,27 @@
 //=require_self
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "responsive";
+@import "theme-base";
+@import "custom";
+@import "theme-elements";
+@import "color-variations/responsive";
+@import "color-variations/theme-base";
+@import "color-variations/theme-elements";
+@import "color-variations/blue";
+@import "color-variations/blue-dark";
+@import "color-variations/brown";
+@import "color-variations/brown-light";
+@import "color-variations/custom";
+@import "color-variations/demo";
+@import "color-variations/green";
+@import "color-variations/orange";
+@import "color-variations/pink";
+@import "color-variations/red";
+@import "color-variations/red-dark";
+@import "color-variations/responsive";
+@import "color-variations/rs-plugin-styles";
+@import "color-variations/theme-base";
+@import "color-variations/theme-elements";
+@import "color-variations/yellow";
+@import "../vendor/animateit/animate";

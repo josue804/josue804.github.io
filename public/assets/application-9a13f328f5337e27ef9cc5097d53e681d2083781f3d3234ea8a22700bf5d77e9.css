@@ -35335,3 +35335,765 @@ button.close {
     display: none !important;
   }
 }
+/* ----------------------------------------------------------------
+	Responsive CSS
+-----------------------------------------------------------------*/
+@media (min-width: 1240px) {
+  /* line 6, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .rev_slider_wrapper {
+    min-height: 600px;
+  }
+
+  /* line 9, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  body.boxed .wrapper,
+  body.boxed-simple .wrapper {
+    float: none;
+    width: 1220px;
+    margin: 0 auto;
+  }
+
+  /* line 15, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  body.boxed-simple .wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+  }
+}
+@media (max-width: 1240px) {
+  /* line 22, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  #header.header-modern {
+    width: 1180px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 27, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .post-3-columns .post-item,
+  .post-4-columns .post-item,
+  .post-5-columns .post-item,
+  .post-6-columns .post-item {
+    width: 31.3333%;
+    margin-right: 2%;
+  }
+
+  /* line 34, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  #header.header-modern {
+    width: 998px;
+  }
+
+  /* line 37, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .news-section-wrapper {
+    padding: 0 40px;
+  }
+}
+@media (max-width: 991px) {
+  /* line 42, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  #topbar.topbar-dark {
+    background-color: #111 !important;
+  }
+
+  /* line 45, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  #topbar .topbar-dropdown {
+    font-size: 12px;
+  }
+
+  /* line 48, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  #topbar .topbar-dropdown .title {
+    padding: 0 10px;
+  }
+
+  /* line 51, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  #logo img {
+    padding: 10px 10px 10px 0;
+  }
+
+  /* line 54, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  #header,
+  #header-wrap,
+  #header.header-sticky nav#mainMenu ul.main-menu,
+  #mainMenu > ul {
+    height: auto !important;
+  }
+
+  /* line 60, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  #header.header-sticky #header-wrap {
+    position: relative;
+  }
+
+  /* line 63, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  #header.header-transparent + #slider,
+  #header.header-transparent + #google-map,
+  #header.header-transparent + .page-title-extended,
+  #header.header-transparent + .page-title-video,
+  #header.header-transparent + .page-title-parallax,
+  #header.header-transparent + .fullscreen,
+  #header.header-modern + .page-title-parallax {
+    top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 73, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  #header.header-transparent,
+  #header.header-light-transparent {
+    background: #FFF;
+    border-bottom: 1px solid #F5F5F5;
+    z-index: auto;
+  }
+
+  /* line 79, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  #header.header-transparent.header-dark:not(.header-navigation-light),
+  #header.header-dark-transparent.header-dark:not(.header-navigation-light) {
+    background-color: #111;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  /* line 84, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  #header.header-dark.header-navigation-light .main-menu > ul > li > a,
+  #header.header-dark.header-navigation-light #top-search a,
+  #header.header-dark.header-navigation-light #shopping-cart a,
+  #header.header-dark.header-navigation-light #shopping-cart .shopping-cart-items,
+  #header.header-dark.header-navigation-light .nav-main-menu-responsive > button,
+  #header.header-dark.header-navigation-light #top-search form input {
+    color: #111;
+  }
+
+  /* line 92, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  #header.header-modern {
+    margin: 0;
+    width: 100%;
+    border-radius: 0px;
+  }
+
+  /* line 97, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  #header.header-modern + .page-title-parallax {
+    padding: 40px 0;
+  }
+
+  /* line 100, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  #header.header-logo-center:not(.header-sticky) #logo {
+    width: auto;
+  }
+
+  /* line 103, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  #header.header-logo-center:not(.header-sticky) nav.main-menu li.dropdown:first-child > a {
+    padding-left: 6px;
+    margin-left: 0px;
+  }
+
+  /* line 107, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  #header > .container {
+    width: 100%;
+    padding: 0px;
+  }
+
+  /*	Main menu*/
+  /* line 112, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .navigation-wrap,
+  .navigation-wrap > .container,
+  #header.header-fullwidth #header-wrap .container .navigation-wrap .container {
+    padding: 0px;
+    width: 100%;
+  }
+
+  /* line 118, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .navbar-collapse {
+    border: 0px !important;
+  }
+
+  /* line 121, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .navigation-wrap.navbar-header,
+  .navigation-wrap.navbar-collapse {
+    margin-left: 0px;
+    margin-right: 0px;
+    box-shadow: none;
+  }
+
+  /* line 127, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .nav-main-menu-responsive {
+    display: block;
+  }
+
+  /* line 130, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .main-menu-collapse {
+    position: relative;
+    width: 100% !important;
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  /* line 137, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .dropdown-menu {
+    width: 100% !important;
+  }
+
+  /* line 140, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .main-menu-collapse.collapse {
+    display: none !important;
+    overflow: auto !important;
+  }
+
+  /* line 144, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .main-menu-collapse.in {
+    display: block !important;
+    overflow-x: hidden !important;
+    overflow-y: auto;
+  }
+
+  /* line 149, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .main-menu {
+    padding-bottom: 10px;
+    clear: both;
+    display: block;
+    width: 100%;
+  }
+
+  /* line 155, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .main-menu ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* line 159, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .main-menu ul li {
+    padding: 0;
+    margin: 0;
+    clear: both;
+    float: none;
+    display: block;
+  }
+
+  /* line 166, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .main-menu ul li.dropdown a,
+  .main-menu ul li.dropdown ul.dropdown-menu li a,
+  .main-menu ul li.dropdown .dropdown-submenu > span.dropdown-menu-title-only {
+    height: 42px;
+    outline: none;
+    line-height: 22px;
+  }
+
+  /* line 173, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .main-menu > ul li:last-child a {
+    border-bottom: 0px;
+  }
+
+  /* line 176, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .main-menu ul ul {
+    margin-left: 10px !important;
+  }
+
+  /* line 179, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .main-menu ul.main-menu {
+    float: none;
+    position: static;
+  }
+
+  /* line 183, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .main-menu ul.dropdown-menu {
+    position: static;
+    clear: both;
+    float: none;
+    display: none !important;
+  }
+
+  /* line 189, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .main-menu li.resp-active > ul.dropdown-menu {
+    border: 0 none;
+    display: block !important;
+    padding-right: 10px;
+  }
+
+  /* line 194, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  nav ul.main-menu li a,
+  nav ul.main-menu .dropdown-submenu > span.dropdown-menu-title-only {
+    clear: both;
+    float: none;
+    display: block;
+    border: 0;
+    border-top: 0;
+    margin: 0;
+  }
+
+  /* line 203, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  nav ul.main-menu li a i.fa-angle-down {
+    position: absolute;
+    right: 5px;
+    top: 14px;
+  }
+
+  /* line 208, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  nav ul.main-menu ul.dropdown-menu {
+    box-shadow: none;
+  }
+
+  /* line 211, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .main-menu > ul > li,
+  .mega-menu ul li.mega-menu-item .mega-menu-title,
+  .main-menu ul li.dropdown.mega-menu-item li,
+  .main-menu .dropdown-submenu > span.dropdown-menu-title-only {
+    border-bottom: 1px solid #eee;
+  }
+
+  /* line 217, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  #header.header-dark:not(.header-navigation-light) .main-menu > ul > li,
+  #header.header-dark:not(.header-navigation-light) .mega-menu ul li.mega-menu-item .mega-menu-title,
+  #header.header-dark:not(.header-navigation-light) .main-menu ul li.dropdown.mega-menu-item li,
+  #header.header-dark:not(.header-navigation-light) .main-menu .dropdown-submenu > span.dropdown-menu-title-only {
+    border-bottom: 1px solid #444;
+  }
+
+  /* line 223, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  nav ul.main-menu ul.dropdown-menu li > a #header nav ul.main-menu .dropdown-submenu > span.dropdown-menu-title-only {
+    padding: 9px 8px;
+    border: 0;
+    border-top: 0;
+    margin: 0;
+    border-bottom: none;
+  }
+
+  /* line 230, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  nav ul.main-menu ul.sub-menu {
+    padding: 0;
+    margin: 0 0 10px 0;
+  }
+
+  /* line 234, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  nav .main-menu .dropdown-submenu {
+    position: relative;
+    background: url("../images/arrow-light-down.png") no-repeat scroll right top;
+  }
+
+  /* line 238, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  nav ul.main-menu ul.dropdown-menu {
+    background: none !important;
+    background-color: transparent !important;
+  }
+
+  /* line 242, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  nav ul.main-menu li.dropdown.open .dropdown-toggle,
+  nav ul.main-menu li a,
+  nav ul.main-menu li > a:hover,
+  nav ul.main-menu li.active a,
+  nav ul.main-menu li.dropdown:hover a,
+  nav ul.main-menu li.dropdown:hover .dropdown-submenu > span.dropdown-menu-title-only {
+    background: none !important;
+    background-color: transparent !important;
+  }
+
+  /* line 251, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  nav ul.main-menu ul.dropdown-menu li:hover > a,
+  nav ul.main-menu li.dropdown:hover ul.dropdown-menu li > a:hover {
+    background: none !important;
+    background-color: transparent !important;
+  }
+
+  /* line 256, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  nav.mega-menu li.mega-menu-item .mega-menu-sub-title {
+    margin-top: 30px;
+  }
+
+  /* line 259, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  nav.mega-menu .mega-menu-content {
+    padding: 0px;
+  }
+
+  /* line 262, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  nav .main-menu .dropdown-menu .mega-menu-content [class*="col-md-"] {
+    padding: 0;
+  }
+
+  /* line 265, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  nav .main-menu .dropdown-menu .mega-menu-content [class*="col-md-"]:nth-child(2n) {
+    padding-left: 2px;
+  }
+
+  /* line 268, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  nav .main-menu .dropdown-menu .mega-menu-content {
+    background-image: none !important;
+  }
+
+  /* line 271, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  nav ul.main-menu .dropdown > .dropdown-menu,
+  nav ul.main-menu .dropdown-submenu > .dropdown-menu {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  /* line 276, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  nav ul.main-menu .dropdown:hover > .dropdown-menu,
+  nav ul.main-menu .dropdown-submenu:hover > .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  /*Side panel*/
+  /* line 282, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  #side-panel {
+    background-color: transparent;
+    display: block !important;
+    overflow: hidden !important;
+    position: relative;
+    width: 100%;
+    left: 0;
+    right: 0;
+  }
+
+  /* line 291, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  #side-panel #panel-logo {
+    display: none;
+  }
+
+  /* line 294, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  body.side-panel-left #side-panel {
+    left: 0;
+    right: 0;
+  }
+
+  /* line 298, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  #side-panel .side-panel-wrap {
+    overflow: unset;
+    width: 100%;
+    padding: 0;
+  }
+
+  /* line 303, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .side-panel-button {
+    display: none;
+  }
+
+  /* line 306, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  #side-panel .side-panel-wrap .panel-widget {
+    display: none;
+  }
+
+  /* line 309, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .lines,
+  .lines:before,
+  .lines:after,
+  .header-dark.header-transparent.header-navigation-light .lines,
+  .header-dark.header-transparent.header-navigation-light .lines:before,
+  .header-dark.header-transparent.header-navigation-light .lines:after {
+    background-color: #111;
+  }
+
+  /* line 317, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .header-dark:not(.header-sticky):not(.header-navigation-light) .lines,
+  .header-dark:not(.header-sticky):not(.header-navigation-light) .lines:before,
+  .header-dark:not(.header-sticky):not(.header-navigation-light) .lines:after,
+  .header-dark.header-transparent:not(.header-sticky):not(.header-navigation-light) .lines,
+  .header-dark.header-transparent:not(.header-sticky):not(.header-navigation-light) .lines:before,
+  .header-dark.header-transparent:not(.header-sticky):not(.header-navigation-light) .lines:after,
+  .header-dark.header-semi-transparent:not(.header-sticky):not(.header-navigation-light) .lines,
+  .header-dark.header-semi-transparent:not(.header-sticky):not(.header-navigation-light) .lines:before,
+  .header-dark.header-semi-transparent:not(.header-sticky):not(.header-navigation-light) .lines:after {
+    background-color: #fff;
+  }
+
+  /*	static side panel*/
+  /* line 331, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  body.side-panel-static .wrapper {
+    padding-left: 0px;
+  }
+
+  /* line 334, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  body.side-panel-static #header #logo {
+    display: inherit;
+  }
+
+  /* line 337, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  #top-search {
+    display: none;
+  }
+
+  /* line 340, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  #shopping-cart {
+    margin-right: 20px;
+  }
+
+  /*	page title*/
+  /* line 344, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .page-title-parallax {
+    background-attachment: none !important;
+    background-position: 50% 0;
+    background-size: inherit !important;
+  }
+
+  /* line 349, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  #page-title {
+    padding: 40px 0 !important;
+  }
+
+  /* line 352, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  #page-title:not(.page-title-small) h1 {
+    font-size: 40px !important;
+  }
+
+  /*	post columns*/
+  /* line 356, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .post-2-columns .post-item,
+  .post-3-columns .post-item,
+  .post-4-columns .post-item,
+  .post-5-columns .post-item,
+  .post-6-columns .post-item {
+    margin-right: 2.000%;
+    width: 48.000%;
+  }
+
+  /* line 364, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .post-content,
+  .post-content-single {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* line 369, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  #header.header-transparent + #slider,
+  #header.header-transparent + .page-title-extended,
+  #header.header-transparent + .page-title-video,
+  #header.header-transparent + .page-title-parallax,
+  #header.header-transparent + .fullscreen,
+  #header.header-transparent + .fullscreen,
+  #header.header-transparent + .halfscreen,
+  #header.header-transparent + #google-map,
+  #header.header-light-transparent + #slider,
+  #header.header-light-transparent + .page-title-extended,
+  #header.header-light-transparent + .page-title-video,
+  #header.header-light-transparent + .page-title-parallax,
+  #header.header-light-transparent + .fullscreen,
+  #header.header-light-transparent + .fullscreen,
+  #header.header-light-transparent + .halfscreen,
+  #header.header-light-transparent + #google-map,
+  #header.header-dark-transparent + #slider,
+  #header.header-dark-transparent + .page-title-extended,
+  #header.header-dark-transparent + .page-title-video,
+  #header.header-dark-transparent + .page-title-parallax,
+  #header.header-dark-transparent + .fullscreen,
+  #header.header-dark-transparent + .fullscreen,
+  #header.header-dark-transparent + .halfscreen,
+  #header.header-dark-transparent + #google-map,
+  #topbar.topbar-transparent + #header.header-transparent + #slider,
+  #topbar.topbar-transparent + #header.header-transparent + .page-title-extended,
+  #topbar.topbar-transparent + #header.header-transparent + .page-title-video,
+  #topbar.topbar-transparent + #header.header-transparent + .page-title-parallax,
+  #topbar.topbar-transparent + #header.header-transparent + .fullscreen,
+  #topbar.topbar-transparent + #header.header-transparent + #google-map,
+  #topbar.topbar-transparent + #header.header-dark-transparent + #slider,
+  #topbar.topbar-transparent + #header.header-dark-transparent + .page-title-extended,
+  #topbar.topbar-transparent + #header.header-dark-transparent + .page-title-video,
+  #topbar.topbar-transparent + #header.header-dark-transparent + .page-title-parallax,
+  #topbar.topbar-transparent + #header.header-dark-transparent + .fullscreen,
+  #topbar.topbar-transparent + #header.header-dark-transparent + #google-map #topbar.topbar-transparent + #header.header-light-transparent + #slider,
+  #topbar.topbar-transparent + #header.header-light-transparent + .page-title-extended,
+  #topbar.topbar-transparent + #header.header-light-transparent + .page-title-video,
+  #topbar.topbar-transparent + #header.header-light-transparent + .page-title-parallax,
+  #topbar.topbar-transparent + #header.header-light-transparent + .fullscreen,
+  #topbar.topbar-transparent + #header.header-light-transparent + #google-map {
+    margin-bottom: 0px;
+    top: 0px;
+  }
+
+  	/*
+  	.container-fullscreen {
+  		padding: 80px 0;
+  		
+  	}
+  */
+  /* line 419, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .p-t-200 {
+    padding-top: 80px !important;
+  }
+
+  /* line 422, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .p-b-200 {
+    padding-bottom: 80px !important;
+  }
+
+  /*	Grid post*/
+  /* line 426, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .grid-articles:not(.post-carousel) .post-entry {
+    width: 50%;
+  }
+
+  /* line 429, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .grid-articles:not(.post-carousel) .post-entry:first-child {
+    width: 100%;
+  }
+
+  /* line 432, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .grid-articles:not(.post-carousel) .post-entry:first-child .post-entry-meta .post-entry-meta-title h2 {
+    font-size: 20px;
+  }
+
+  /* line 435, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .grid-articles:not(.post-carousel) .post-entry .post-entry-meta .post-entry-meta-title h2 {
+    font-size: 13px;
+  }
+
+  /* line 438, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .grid-articles:not(.post-carousel) .post-entry .post-entry-overlay {
+    border-width: 0 !important;
+  }
+
+  /*	hide news ticker*/
+  /* line 442, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .news-ticker {
+    display: none;
+  }
+
+  /* line 445, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .news-section-wrapper {
+    padding: 0px;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  /* line 451, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  #page-title:not(.page-title-small) h1 {
+    font-size: 30px !important;
+  }
+
+  /*	post columns*/
+  /* line 455, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .post-2-columns .post-item,
+  .post-3-columns .post-item,
+  .post-4-columns .post-item,
+  .post-5-columns .post-item,
+  .post-6-columns .post-item {
+    margin-right: 2%;
+    width: 98%;
+  }
+
+  /*	TYPOGRAPHY*/
+  /* line 464, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .text-large,
+  .text-large span,
+  .text-large span span,
+  .text-large-light,
+  .text-large-light span,
+  .text-large-light span span,
+  .text-extra-large,
+  .text-extra-large span {
+    font-size: 60px !important;
+    line-height: 60px !important;
+  }
+}
+@media (max-width: 479px) {
+  /*	Grid post*/
+  /* line 478, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .grid-articles:not(.post-carousel) .post-entry,
+  .grid-articles:not(.post-carousel) .post-entry:first-child,
+  .grid-articles.grid-articles-v2:not(.post-carousel) .post-entry:nth-child(1),
+  .grid-articles.grid-articles-v2:not(.post-carousel) .post-entry:nth-child(2) {
+    width: 100%;
+  }
+
+  /* line 484, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .grid-articles:not(.post-carousel) .post-entry:first-child .post-entry-meta .post-entry-meta-title h2 a,
+  .grid-articles.grid-articles-v2:not(.post-carousel) .post-entry:nth-child(1) .post-entry-meta .post-entry-meta-title h2 a,
+  .grid-articles.grid-articles-v2:not(.post-carousel) .post-entry:nth-child(2) .post-entry-meta .post-entry-meta-title h2 a {
+    font-size: 16px;
+  }
+
+  /* line 489, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  #page-title:not(.page-title-small) h1 {
+    font-size: 30px !important;
+  }
+
+  /*	post columns*/
+  /* line 493, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .post-2-columns .post-item,
+  .post-3-columns .post-item,
+  .post-4-columns .post-item,
+  .post-5-columns .post-item,
+  .post-6-columns .post-item {
+    margin-right: 0%;
+    width: 100%;
+  }
+
+  /*	blog*/
+  /* line 502, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .post-thumbnail .post-image,
+  .post-thumbnail .post-video,
+  .post-thumbnail .post-audio,
+  .post-thumbnail .post-embed,
+  .post-thumbnail .post-slider,
+  .post-thumbnail .post-content-details,
+  .post-thumbnail .post-meta {
+    width: 100%;
+    padding: 0;
+  }
+
+  /*	footer*/
+  /* line 513, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  footer .footer-logo {
+    border-right: 0 none;
+    float: none !important;
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+    display: block;
+  }
+
+  /*****SHORTCODES *****/
+  /*countdown*/
+  /* line 523, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .countdown .countdown-box {
+    height: 60px !important;
+    padding: 2px 0px 0 0 !important;
+    width: 60px !important;
+    margin: 0px !important;
+    border: solid 0px !important;
+  }
+
+  /* line 530, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .countdown .countdown-box .number {
+    font-size: 20px !important;
+    margin-bottom: 0px;
+  }
+
+  /* line 534, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .countdown .countdown-container .countdown-box span {
+    font-size: 10px !important;
+    padding-top: 0px;
+  }
+
+  /*	TYPOGRAPHY*/
+  /* line 539, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .text-large,
+  .text-large span,
+  .text-large span span,
+  .text-large-light,
+  .text-large-light span,
+  .text-large-light span span,
+  .text-extra-large,
+  .text-extra-large span {
+    font-size: 40px !important;
+    line-height: 40px !important;
+  }
+
+  /* line 550, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .hero-heading-3 {
+    background-color: #fff;
+    border: 30px solid #fff;
+    padding: 30px;
+    width: 100%;
+    margin: 0;
+  }
+
+  /* line 557, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  .hero-heading-3 h2,
+  .hero-heading-3 h3 {
+    font-size: 40px !important;
+    line-height: 40px !important;
+  }
+
+  /*multiscroll*/
+  /* line 563, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  #multiscroll .ms-left {
+    width: 100% !important;
+    z-index: 1;
+  }
+
+  /* line 567, /home/josue/documents/rails/portfolio/app/assets/stylesheets/responsive.css */
+  #multiscroll .ms-right {
+    background: none;
+  }
+}
